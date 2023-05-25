@@ -1,0 +1,26 @@
+@use "react-md" as *;
+
+@use "@react-md/theme/dist/color-palette" as *;
+
+// this will include all the styles from react-md
+@include react-md-utils;
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     @include rmd-theme-dark;
+//   }
+// }
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//     @include rmd-theme-light;
+//   }
+// }
+
+// .dark-theme {
+//   @include rmd-theme-dark;
+// }
+
+// .light-theme {
+//   @include rmd-theme-light;
+// }
